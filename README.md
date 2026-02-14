@@ -19,3 +19,12 @@ const logger = pino();
 
 logger.info({userId : 123 } , "user logged in");
 ```
+
+## Run the complete 
+``` bash
+# development mode (with pretty printing)
+npm run dev
+
+# production node (JSON output)
+npm start
+```
