@@ -64,3 +64,33 @@ Day 4: Production & Monitoring
 | `06-best-practices.js` | Patterns | Do's/Don'ts, performance |
 | `complete-example.js` | Reference | Full production app |
 
+### Supporting Files
+
+- `package.json` - All dependencies and scripts
+- `README.md` - This guide
+
+---
+
+## Installation Steps
+``` bash
+# 1. install dependencies
+npm install 
+
+# 2. run examples
+node 01-basic-pino.js
+node 02-logger-config.js
+
+# 3. run the complete server
+npm run dev
+
+# 4. test endpoints
+curl http://localhost:3000/health
+curl http://localhost:3000/api/users/123
+```
+
+---
+
+## Key concepts
+### Structured Logging
+
+
