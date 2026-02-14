@@ -1,7 +1,7 @@
 {
   "name": "pino-learning-guide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Complete Pino logging tutorial for Express.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,15 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/v-shadowmaster/pino-learning-guide.git"
   },
-  "keywords": [],
+  "keywords": [
+    "pino",
+    "logging",
+    "express",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/v-shadowmaster/pino-learning-guide/issues"
   },
   "homepage": "https://github.com/v-shadowmaster/pino-learning-guide#readme",
   "dependencies": {
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "pino": "^10.3.1",
     "pino-http": "^11.0.0"
